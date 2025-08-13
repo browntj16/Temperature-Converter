@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Temperature Converter Thing</title>
     <link rel="stylesheet" href="styling.css">
+    <script src="scripts.js"></script>
 </head>
 
 <body>
@@ -14,12 +15,12 @@
     </h1>
     <hr>
     <p id="mainPara" class="mainPara">
-        Enter your temperature (in Celsius): <input type="text" id="tempInput" class="tempInput">
-        <button id="convertButton">CONVERT</button>
+        Enter your temperature (in Celsius): <input type="text" id="tempInput" class="tempInput">°C
+        <button id="convertButton" onclick="convertButton()">CONVERT</button>
     </p>
     <p id="convertPara" class="mainPara">
         Your temperature in Fahrenheit is:
-        <span id="celsius"></span>
+        <span id="fahrenheit"></span>°F
     </p>
     <img class="congratsImg" src="assets/penpen_congratulations.gif" alt="penpen_congratulations" id="congratsImg">
 </body>
