@@ -4,11 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Temperature Converter Thing</title>
+    <link rel="stylesheet" href="styling.css">
 </head>
 
 <body>
-
+    <h1 id="temperatureHeading" class="heading1">
+        <a href="https://github.com/browntj16/Temperature-Converter">Celsius to Fahrenheit</a>
+    </h1>
+    <hr>
+    <p id="mainPara" class="mainPara">
+        Enter your temperature (in Celsius): <input type="text" id="tempInput" class="tempInput">
+        <button id="convertButton">CONVERT</button>
+    </p>
+    <p id="convertPara" class="mainPara">
+        Your temperature in Fahrenheit is:
+        <span id="celsius"></span>
+    </p>
+    <img class="congratsImg" src="assets/penpen_congratulations.gif" alt="penpen_congratulations" id="congratsImg">
 </body>
 
 </html>
